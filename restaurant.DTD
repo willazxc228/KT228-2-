@@ -1,0 +1,31 @@
+<!ELEMENT restaurant (theme, staff, furniture, tables, menu, visitors)>
+    <!ELEMENT theme (#PCDATA)>
+    
+    <!ELEMENT staff (chef+, waiters)>
+    <!ELEMENT chef (name, surname, specialty)>
+    <!ELEMENT waiters (waiter+)>
+    <!ELEMENT waiter (name, surname)>
+    <!ELEMENT specialty (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+  
+
+    <!ELEMENT furniture (table, chair, window)>
+    <!ELEMENT table (#PCDATA)>
+    <!ELEMENT chair (#PCDATA)>
+    <!ELEMENT window (#PCDATA)>
+    
+    <!ELEMENT tables (numbers+)>
+    <!ELEMENT numbers (#PCDATA)>
+    
+    <!ELEMENT menu (dish+)>
+    <!ELEMENT dish (name, price, pizza*)>
+    <!ELEMENT pizza (name, price)>
+    
+    <!ELEMENT visitors (visitor+)>
+    <!ELEMENT visitor (name, surname, sex, size_body, otchectvo, color_heir)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT surname (#PCDATA)>
+    <!ELEMENT sex (#PCDATA)>
+    <!ELEMENT size_body (#PCDATA)>
+    <!ELEMENT otchectvo (#PCDATA)>
+    <!ELEMENT color_heir (#PCDATA)>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="restaurant.dtd" type="application/xml-dtd"?>
+<restaurant>
+    <theme>Restaurant</theme>
+    <staff>
+        <chef>
+            <name>вася</name>
+            <surname>пупкин</surname>
+            <specialty>Французкая кухня</specialty>
+        </chef>
+        <chef>
+            <name>лида</name>
+            <surname>васильевна</surname>
+            <specialty>Итальянская кухня</specialty>
+        </chef>
+        <waiters>
+            <waiter>
+                <name>маша</name>
+                <surname>белоголовкина</surname>
+            </waiter>
+            <waiter>
+                <name>вова</name>
+                <surname>чуркин</surname>
+            </waiter>
+        </waiters>
+    </staff>
+
+    <furniture>
+        <table>10 шт.</table>
+        <chair>25 шт.</chair>
+        <window>6 шт.</window>
+    </furniture>
+
+<tables>
+    <numbers>1</numbers>
+    <numbers>2</numbers>
+    <numbers>3</numbers>
+    <numbers>4</numbers>
+    <numbers>5</numbers>
+    <numbers>6</numbers>
+    <numbers>7</numbers>
+</tables>
+
+    <menu>
+        <dish>
+            <name>котлета</name>
+            <price>60 руб.</price>
+        </dish>
+        <dish>
+            <name>макарошки</name>
+            <price>50 руб.</price>
+        </dish>
+        <dish>
+            <name>кoмпот</name>
+            <price>20 руб.</price>
+        </dish>
+
+        <dish>
+            <name>додо-микс</name>
+            <price>549 руб.</price>
+        </dish>
+        <dish>
+            <name>двойная-пеперони</name>
+            <price>499 руб.</price>
+        </dish>
+        <dish>
+            <name>маргарита</name>
+            <price>439 руб.</price>
+        </dish>
+    </menu>
+<visitors>
+        <visitor>
+            <name>паша</name>
+            <surname>абрагим</surname>
+            <sex>м</sex>
+            <size_body>185</size_body>
+            <otchectvo>сергеевич</otchectvo>
+            <color_heir>желтый</color_heir>
+        </visitor>
+        <visitor>
+            <name>женя</name>
+            <surname>обзалова</surname>
+            <sex>ж</sex>
+            <size_body>150,1</size_body>
+            <otchectvo>ариновна</otchectvo>
+            <color_heir>зеленый</color_heir>
+        </visitor>
+        <visitor>
+            <name>петя</name>
+            <surname>магамедов</surname>
+            <sex>м</sex>
+            <size_body>145</size_body>
+            <otchectvo>залупкинович</otchectvo>
+            <color_heir>черный</color_heir>
+        </visitor>
+        <visitor>
+            <name>маша</name>
+            <surname>визитова</surname>
+            <sex>ж</sex>
+            <size_body>195</size_body>
+            <otchectvo>андреевна</otchectvo>
+            <color_heir>розовый</color_heir>
+        </visitor>
+        <visitor>
+            <name>андрей</name>
+            <surname>игорев</surname>
+            <sex>м</sex>
+            <size_body>52</size_body>
+            <otchectvo>свиридович</otchectvo>
+            <color_heir>отсутствует</color_heir>
+        </visitor>
+        <visitor>
+            <name>евпатий</name>
+            <surname>красно-солнышко</surname>
+            <sex>м</sex>
+            <size_body>200</size_body>
+            <otchectvo>петрович</otchectvo>
+            <color_heir>желтый</color_heir>
+        </visitor>
+        <visitor>
+            <name>саша</name>
+            <surname>григорьева</surname>
+            <sex>ж</sex>
+            <size_body>150,9</size_body>
+            <otchectvo>блондиновна</otchectvo>
+            <color_heir>белый</color_heir>
+        </visitor>
+        <visitor>
+            <name>влад</name>
+            <surname>а-четыре</surname>
+            <sex>м</sex>
+            <size_body>135</size_body>
+            <otchectvo>вячеславович</otchectvo>
+            <color_heir>зелёно-красный</color_heir>
+        </visitor>
+        <visitor>
+            <name>алексей</name>
+            <surname>юрченко</surname>
+            <sex>м</sex>
+            <size_body>183</size_body>
+            <otchectvo>свиридович</otchectvo>
+            <color_heir>синий</color_heir>
+        </visitor>
+        <visitor>
+            <name>артем</name>
+            <surname>стриж</surname>
+            <sex>ж</sex>
+            <size_body>170</size_body>
+            <otchectvo>александровна</otchectvo>
+            <color_heir>черный</color_heir>
+        </visitor>
+        <visitor>
+            <name>алина</name>
+            <surname>ситникова</surname>
+            <sex>ж</sex>
+            <size_body>154</size_body>
+        <otchectvo>сергеевна</otchectvo>
+        <color_heir>блонд</color_heir>
+    </visitor>
+    <visitor>
+        <name>данил</name>
+        <surname>бондаренко</surname>
+        <sex>м</sex>
+        <size_body>189</size_body>
+        <otchectvo>русланович</otchectvo>
+        <color_heir>черный под троичку</color_heir>
+    </visitor>
+    <visitor>
+        <name>петя</name>
+        <surname>пивкин</surname>
+        <sex>м</sex>
+        <size_body>128</size_body>
+        <otchectvo>дмитриевич</otchectvo>
+        <color_heir>синий</color_heir>
+    </visitor>
+    <visitor>
+        <name>лев</name>
+        <surname>влатамир</surname>
+        <sex>м</sex>
+        <size_body>190</size_body>
+        <otchectvo>белоножкович</otchectvo>
+        <color_heir>сине-желтый</color_heir>
+    </visitor>
+    <visitor>
+        <name>поставьте</name>
+        <surname>пожалуйста</surname>
+        <sex>нам</sex>
+        <size_body>баллы</size_body>
+        <otchectvo>мы</otchectvo>
+        <color_heir>очень-старались</color_heir>
+    </visitor>
+</visitors>
+</restaurant>
